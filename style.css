@@ -1,0 +1,167 @@
+/* style.css */
+
+/* Global Styles */
+body {
+  background-image: url(Properties/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #f3f3f3;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  font-size: 40px;
+  margin: 0;
+}
+
+h2.section-heading {
+  color: #333333;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+p.section-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.btn {
+  background-color: #333333;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #555555;
+}
+
+/* Header Styles */
+header {
+  background-color: #555555;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #f3f3f3;
+  font-size: 28px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #333333;
+}
+
+.section-image {
+  max-width:200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* Section Styles */
+.skill-container {
+  margin-bottom: 20px;
+}
+
+.skill-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skill-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-list li {
+  margin-bottom: 5px;
+}
+
+.language-container {
+  margin-top: 20px;
+}
+
+.language {
+  margin-bottom: 10px;
+}
+
+.language-name {
+  display: inline-block;
+  font-weight: bold;
+  width: 200px;
+}
+
+.language-level {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  border: 1px solid #333333;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.expert {
+  background-color: #4caf50;
+  color: #333333;
+}
+
+.intermediate {
+  background-color: #f9a825;
+  color: #333333;
+}
+
+.newbie{
+  background-color: red;
+  color:#333333;
+}
+
+
